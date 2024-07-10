@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ProyectoAtenea</string>
+    <string name="label">Ingrese su email</string>
+    <string name="label_pass">Ingrese su contraseña</string>
+    <string name="label_name">Ingrese su nombre</string>
 </resources>
