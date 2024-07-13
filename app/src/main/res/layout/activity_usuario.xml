@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".Usuario">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -126,4 +127,128 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+=======
+    android:background="#ECE5D0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="@font/merriweather_sans"
+            android:text="Usuario"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/btnAtrasUser"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.483" />
+
+        <ImageButton
+            android:id="@+id/btnAtrasUser"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#FE725E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_24"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FE725E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_settings_24"
+            tools:layout_editor_absoluteX="324dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="249dp"
+        android:layout_height="250dp"
+        android:background="#FE725E"
+        android:clickable="true"
+        app:circularflow_angles="10dp"
+        app:circularflow_defaultRadius="10dp"
+        app:circularflow_radiusInDP="10dp"
+        app:circularflow_viewCenter="10dp"
+        app:srcCompat="@drawable/baseline_assignment_ind_24"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:background="#FE725E"
+        android:text="Pedidos"
+        android:textColorHint="#2B1E1E"
+        android:textColorLink="#333030"
+        android:textStyle="bold|italic"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:background="#FE725E"
+        android:text="Favoritos"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:background="#FE725E"
+        android:text="Ultimo Visto"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="418dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/rounded_background"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <ImageButton
+        android:id="@+id/btnNextUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FE725E"
+        android:backgroundTint="#FE725E"
+        app:srcCompat="@drawable/baseline_arrow_forward_24"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+
+>>>>>>> main
 </androidx.constraintlayout.widget.ConstraintLayout>

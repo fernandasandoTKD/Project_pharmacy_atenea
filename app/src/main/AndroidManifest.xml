@@ -13,12 +13,6 @@
         android:theme="@style/Theme.ProyectoAtenea"
         tools:targetApi="31">
         <activity
-            android:name=".Productos"
-            android:exported="false" />
-        <activity
-            android:name=".Usuario"
-            android:exported="false" />
-        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
