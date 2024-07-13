@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Usuario">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,7 +22,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/btnUserBack"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -35,7 +36,6 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweather_sans"
-                android:gravity="top"
                 android:text="Usuario>"
                 android:textAlignment="center"
                 android:textColor="@color/white"
@@ -43,7 +43,7 @@
                 android:textStyle="bold" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/btnUserMenu"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -72,7 +72,7 @@
                 app:srcCompat="@drawable/baseline_person_pin_24" />
 
             <Button
-                android:id="@+id/filledButton"
+                android:id="@+id/btnUserPedidos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -83,7 +83,7 @@
                 android:text="Pedidos" />
 
             <Button
-                android:id="@+id/filledButton"
+                android:id="@+id/btnUserUltimosV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -94,7 +94,7 @@
                 android:text="Ultimos Vistos" />
 
             <Button
-                android:id="@+id/filledButton"
+                android:id="@+id/btnUserFavoritos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -115,7 +115,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/btnUsernext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -125,5 +125,6 @@
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
