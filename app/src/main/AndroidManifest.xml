@@ -14,6 +14,7 @@
         android:theme="@style/Theme.ProyectoAtenea"
         tools:targetApi="31">
         <activity
+
             android:name=".HomeActivity"
             android:exported="false"
             android:screenOrientation="portrait"/>
