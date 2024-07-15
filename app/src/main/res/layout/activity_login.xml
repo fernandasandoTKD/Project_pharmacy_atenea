@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    android:theme="@style/Theme.ProyectoAtenea"
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,10 +17,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_marginTop="0dp"
-        app:srcCompat="@drawable/register"
+        app:srcCompat="@drawable/login"
         android:layout_gravity="center_horizontal"/>
 
     <TextView
@@ -27,29 +28,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/merriweather_sans"
-        android:text="Registarse"
+        android:text="Inicio de sesión"
         android:textColor="@color/black"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:layout_gravity="center_horizontal"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:hint="@string/label_name">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textFieldName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -58,7 +43,7 @@
         android:hint="@string/label">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textFieldMail"
+            android:id="@+id/editTextMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -67,12 +52,13 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:endIconMode="password_toggle"
-        android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/label_pass">
 
         <com.google.android.material.textfield.TextInputEditText
