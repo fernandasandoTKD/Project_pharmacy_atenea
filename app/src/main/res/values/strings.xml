@@ -3,4 +3,9 @@
     <string name="label">Ingrese su email</string>
     <string name="label_pass">Ingrese su contraseña</string>
     <string name="label_name">Ingrese su nombre</string>
+
+
+    <!-- String del layout de los items -->
+    <string name="item_button_add">Editar</string>
+    <string name="item_button_delete">Eliminar</string>
 </resources>
