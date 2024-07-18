@@ -39,6 +39,12 @@ public class HomeActivity extends AppCompatActivity {
         productList = new ArrayList<>();
         productList.add(new Product("Acetaminofen", "$10", R.drawable.login));
         productList.add(new Product("Ibuprofeno", "$12", R.drawable.login));
+        productList.add(new Product("Dolex", "$12", R.drawable.login));
+        productList.add(new Product("Sulfato", "$12", R.drawable.login));
+        productList.add(new Product("Crema", "$12", R.drawable.login));
+        productList.add(new Product("Aspirina", "$12", R.drawable.login));
+        productList.add(new Product("Doloran", "$12", R.drawable.login));
+        productList.add(new Product("Ibuprofeno", "$12", R.drawable.login));
         // Agrega más productos según sea necesario
 
         adapter = new ProductAdapter(productList, this);

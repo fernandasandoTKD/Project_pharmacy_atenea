@@ -8,4 +8,17 @@
     <!-- String del layout de los items -->
     <string name="item_button_add">Editar</string>
     <string name="item_button_delete">Eliminar</string>
+
+    <!-- Definición de price_format -->
+    <string name="price_format">%.2f</string>
+    <!-- Otros Strings del activity_main-->
+    <string name="hint_id">ID</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_price">Precio</string>
+    <string name="button_add">Agregar</string>
+    <string name="button_get_sqlite">Ver SQLite</string>
+    <string name="button_get_firebase">Ver Firebase</string>
+    <string name="button_synchronize_firebase">Sincronizar Firebase</string>
+    <!-- String del layout de los items -->
+
 </resources>

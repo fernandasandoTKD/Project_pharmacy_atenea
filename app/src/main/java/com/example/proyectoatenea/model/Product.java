@@ -2,12 +2,24 @@ package com.example.proyectoatenea.model;
 
 public class Product {
     private String name;
-    private String price;
+    private double price;
     private int imageResourceId;
+    private String id;
 
-    public Product(String name, String description, int imageResourceId) {
+    public Product(String id, String name, int priceIndex) {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public Product(String name, double price) {
         this.name = name;
-        this.price = description;
+        this.price = price;
         this.imageResourceId = imageResourceId;
     }
 
@@ -15,8 +27,8 @@ public class Product {
         return name;
     }
 
-    public String getPrice() {
-        return price;
+    public int getPrice() {
+        return (int) price;
     }
 
     public int getImageResourceId() {
