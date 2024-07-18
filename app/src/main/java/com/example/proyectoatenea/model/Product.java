@@ -31,7 +31,7 @@ public class Product {
         return (int) price;
     }
 
-    public int getImageResourceId() {
+    public String getImageResourceId() {
         return imageResourceId;
     }
 }
