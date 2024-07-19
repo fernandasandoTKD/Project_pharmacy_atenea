@@ -46,9 +46,17 @@ dependencies {
     // Firebase Core and Analytics
     implementation("com.google.firebase:firebase-core:21.1.1")
     implementation("com.google.firebase:firebase-analytics")
-// Firebase Authentication and Firestore
-    implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.firebase:firebase-firestore")
+    // Firebase Authentication and Firestore
+    implementation("com.google.firebase:firebase-auth:20.0.4")
+    implementation("com.google.firebase:firebase-firestore:23.0.4")
     implementation("com.google.firebase:firebase-database:20.3.1")
+
+    //Dependencias
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation ("androidx.recyclerview:recyclerview:1.2.1")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.3.1")
+    implementation ("androidx.lifecycle:lifecycle-livedata:2.3.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
 }
